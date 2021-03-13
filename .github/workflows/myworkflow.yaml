@@ -4,4 +4,9 @@ jobs:
   my-job-1: # Name of job
     runs-on: ubuntu-latest # Or ubuntu-20.04, macos-11.0, windows-2019, etc. 
     steps:
-      - run: echo Hello World
+      - run: echo Hello World 1
+      - run: echo Hello World 2
+  my-job-2: # Name of job
+    runs-on: ubuntu-latest # Or ubuntu-20.04, macos-11.0, windows-2019, etc. 
+    steps:
+      - run: echo Hello World 3
