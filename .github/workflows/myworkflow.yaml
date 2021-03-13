@@ -1,0 +1,7 @@
+name: my-workflow # Workflow name that appear in the Actions tab of the GitHub repository
+on: [push] # Triggering event(s)
+jobs:
+  my-job-1: # Name of job
+    runs-on: ubuntu-latest # Or ubuntu-20.04, macos-11.0, windows-2019, etc. 
+    steps:
+      - run: echo Hello World
